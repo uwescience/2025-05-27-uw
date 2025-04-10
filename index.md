@@ -9,7 +9,7 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "47.606209"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-122.332071"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "May 27th&ndash;30th, 2025 (Tues.&ndash;Fri."    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "May 27th&ndash;30th, 2025 (Tues.&ndash;Fri.)"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00am&ndash;noon PDT"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-05-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-05-30        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -83,6 +83,15 @@ displayed if the 'eventbrite' field in the header is not set.
     });
 </script>
 {% endif %}
+
+<div class="">
+<h2 id="registration">Registration Information</h2>
+<ul>
+  <li>In order to register for the workshop, you must first follow the <a href="https://uwescience.github.io/2025-05-27-uw/#setup">setup instructions</href>, below. You must install all four tools: <a href="https://uwescience.github.io/2025-05-27-uw/#the-bash-shell">the Bash Shell</a>, <a href="https://uwescience.github.io/2025-05-27-uw/#git-1">Git</a>, a <a href="https://uwescience.github.io/2025-05-27-uw/#text-editor">Text Editor</a>, and <a href="https://uwescience.github.io/2025-05-27-uw/#python-1">Python</a>.</li>
+  <li>If you are unable to follow the instructions, please email Noah Benson &lt;<a href="mailto:nben@uw.edu">nben@uw.edu</a>&gt; for assistance; we will help you install the software then give you a registration link.
+  <li>Otherwise, once you have followed these instructions, please fill out <a href="https://forms.gle/BxmUJc81vDQHRhVU8">this Google Form</a>. You will not be able to complete the form if you have not successfully installed all four pieces of software.
+</ul>
+</div>
 
 
 <h2 id="general">General Information</h2>
