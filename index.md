@@ -85,7 +85,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 <div style="justify-content: center; width: 100%; display: flex;">
-  <div style="background-color: #FFEEEE; width: 80%; border-style: solid; border-color: red; border-width: 5px; padding: 5px; overflow: auto;">
+  <div style="background-color: #EEFFEE; width: 100%; border-style: solid; border-color: green; border-width: 5px; padding: 5px; overflow: auto;">
   <h2 id="registration">Registration Information</h2>
   <ul>
     <li>In order to register for the workshop, you must first follow the <a href="https://uwescience.github.io/2025-05-27-uw/#setup">setup instructions</a>, below. You must install all four tools: <a href="https://uwescience.github.io/2025-05-27-uw/#the-bash-shell">the Bash Shell</a>, <a href="https://uwescience.github.io/2025-05-27-uw/#git-1">Git</a>, a <a href="https://uwescience.github.io/2025-05-27-uw/#text-editor">Text Editor</a>, and <a href="https://uwescience.github.io/2025-05-27-uw/#python-1">Python</a>.</li>
